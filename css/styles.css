@@ -1,15 +1,19 @@
 #div1 {
-  background-color: black;
-  margin-bottom: 200px;
+  background-color: darkgray;
+  margin-bottom: 70px;
   margin-top: 30px;
 }
 
+#profile {
+  margin-bottom: 70px;
+}
+
 h1 {
-  color: white;
+  color: black;
 }
 
 h4 {
-  color: lightgray;
+  color: white;
 }
 
 h5 {
@@ -17,9 +21,18 @@ h5 {
 }
 
 #projects {
-  background-color: darkgray;
+  background-color: rgb(144, 172, 196);
   margin-bottom: 200px;
   padding: 100px;
+}
+
+#proTitle {
+  text-decoration: underline;
+  color: black;
+  margin-bottom: 75px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
 }
 
 #contact {
