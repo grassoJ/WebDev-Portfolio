@@ -1,0 +1,40 @@
+#div1 {
+  background-color: black;
+  margin-bottom: 200px;
+  margin-top: 30px;
+}
+
+h1 {
+  color: white;
+}
+
+h4 {
+  color: lightgray;
+}
+
+h5 {
+  color: black;
+}
+
+#projects {
+  background-color: darkgray;
+  margin-bottom: 200px;
+  padding: 100px;
+}
+
+#contact {
+  background-color: darkgrey;
+  border-radius: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+body {
+  background-color: pink;
+}
+
+footer {
+  margin-top: 100px;
+}
