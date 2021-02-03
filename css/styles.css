@@ -6,6 +6,24 @@
 
 #profile {
   margin-bottom: 70px;
+  margin-left: 3em;
+  width: 25em;
+}
+
+#aboutMe{
+  font-size: 4em;
+  font-weight: bold;
+
+}
+
+#melb{
+  font-size: 1.5em;
+
+}
+
+#iEnjoy{
+  font-size: 1.1em;
+
 }
 
 h1 {
@@ -27,7 +45,6 @@ h5 {
 }
 
 #proTitle {
-  text-decoration: underline;
   color: black;
   margin-bottom: 75px;
   text-align: center;

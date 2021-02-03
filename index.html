@@ -16,6 +16,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="js/index.js"></script>
 
     <title>Web Assess</title>
   </head>
@@ -24,7 +25,7 @@
     <!-- start navbar -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">JSite</a>
+      <a class="navbar-brand" href="#">jamesSite</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -56,20 +57,40 @@
     <!-- end navbar -->
 
     <div id="div1" class="jumbotron container text-center">
-      <h1 class="font-weight-bold">Hi Friend. I'm James.</h1>
-      <h4 class="font-italic">a developing nube</h4>
+      <h1 class="font-weight-bold">James Grasso</h1>
+      <h4 class="font-italic">Front End Web Developer</h4>
     </div>
 
     <!-- PROFILE PIC START -->
-    <div id="profile">
-      <img
-        class="w-25 img-fluid rounded mx-auto d-block border rounded-circle"
-        src="css/profile.jpg"
-      />
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div id="profile">
+            <img
+              class="img-fluid rounded mx-auto border rounded-circle"
+              src="css/profile.jpg"
+            />
+          </div>
+        </div>
+        <div class="col">
+          <!-- ABOUT ME -->
+          <div>
+            <h1 id="aboutMe">about me</h1>
+            <p id="melb">I'm a web developer based in Melbourne, Australia</p>
+            <p id="iEnjoy">
+              I enjoy making beauiful, user-friendly, and responsive web
+              applications. When I'm not locked into my computer screen, I like
+              to be in nature, on my bike, or on my feet and maybe with some
+              friends. I make a lot of tea, I do a little gardening, and if I
+              get to pick the movie it's usually a comedy.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div id="projects">
-      <h1 id="proTitle">Here are Some of My Projects</h1>
+      <h1 id="proTitle">some of my works:</h1>
 
       <!-- project card start -->
       <div class="card-deck">
@@ -218,7 +239,7 @@
               </div>
               <!--Grid row-->
             </form>
-
+            <div id="myText">Test Div for Form Send</div>
             <div class="text-center text-md-left">
               <a
                 class="btn btn-primary"
@@ -226,7 +247,10 @@
                 >Send</a
               >
             </div>
+            <!-- TESTING CONNECT FOR SEND FORM -->
             <div class="status"></div>
+            <button onclick="sendMail(); return false">Send</button>
+            <!-- END TESTING CONNECT FOR SEND FORM -->
           </div>
           <!--Grid column-->
 
