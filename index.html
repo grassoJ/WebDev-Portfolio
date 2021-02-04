@@ -16,6 +16,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
     <script src="js/index.js"></script>
 
     <title>Web Assess</title>
@@ -25,7 +31,7 @@
     <!-- start navbar -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">jamesSite</a>
+      <a class="navbar-brand" href="#">jgSite</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -45,7 +51,10 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">Work</a>
+            <a class="nav-link" href="#proTitle">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skillsTitle">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -84,15 +93,27 @@
               friends. I make a lot of tea, I do a little gardening, and if I
               get to pick the movie it's usually a comedy.
             </p>
+            <br>
+            <a
+          class="btn btn-outline-dark btn-lg"
+          href="./resume/JamesCV.pdf"
+          target="_blank"
+          rel="noreferrer noopener"
+          role="button"
+          aria-label="Resume/CV"
+          >Resume</a>
           </div>
         </div>
       </div>
     </div>
+    <!-- project card start -->
+    <div class="container">
+      <div class="row" id="proTitle">
+        <h1>Recent Projects</h1>
+      </div>
+    </div>
 
-    <div id="projects">
-      <h1 id="proTitle">some of my works:</h1>
-
-      <!-- project card start -->
+    <div class="container rounded" id="projects">
       <div class="card-deck">
         <div class="card">
           <a href="https://www.amazon.com/">
@@ -148,138 +169,72 @@
       </div>
       <!-- project cared end -->
     </div>
-
-    <div id="contact" class="container text-center">
-      <!-- start contact form -->
-
-      <!--Section: Contact v.2-->
-      <section class="mb-4">
-        <!--Section heading-->
-        <h2 class="h1-responsive font-weight-bold text-center my-4">
-          Let's Connect!
-        </h2>
-        <!--Section description-->
-        <p class="text-center w-responsive mx-auto mb-5">
-          Do you have any questions? Please do not hesitate to contact me
-          directly.
-        </p>
-
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-md-9 mb-md-0 mb-5">
-            <form
-              id="contact-form"
-              name="contact-form"
-              action="mail.php"
-              method="POST"
-            >
-              <!--Grid row-->
-              <div class="row">
-                <!--Grid column-->
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      class="form-control"
-                    />
-                    <label for="name" class="">Your name</label>
-                  </div>
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input
-                      type="text"
-                      id="email"
-                      name="email"
-                      class="form-control"
-                    />
-                    <label for="email" class="">Your email</label>
-                  </div>
-                </div>
-                <!--Grid column-->
-              </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="md-form mb-0">
-                    <input
-                      type="text"
-                      id="subject"
-                      name="subject"
-                      class="form-control"
-                    />
-                    <label for="subject" class="">Subject</label>
-                  </div>
-                </div>
-              </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
-              <div class="row">
-                <!--Grid column-->
-                <div class="col-md-12">
-                  <div class="md-form">
-                    <textarea
-                      type="text"
-                      id="message"
-                      name="message"
-                      rows="2"
-                      class="form-control md-textarea"
-                    ></textarea>
-                    <label for="message">Your message</label>
-                  </div>
-                </div>
-              </div>
-              <!--Grid row-->
-            </form>
-            <div id="myText">Test Div for Form Send</div>
-            <div class="text-center text-md-left">
-              <a
-                class="btn btn-primary"
-                onclick="document.getElementById('contact-form').submit();"
-                >Send</a
-              >
-            </div>
-            <!-- TESTING CONNECT FOR SEND FORM -->
-            <div class="status"></div>
-            <button onclick="sendMail(); return false">Send</button>
-            <!-- END TESTING CONNECT FOR SEND FORM -->
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-3 text-center">
-            <ul class="list-unstyled mb-0">
-              <li>
-                <i class="fas fa-map-marker-alt fa-2x"></i>
-                <p>Melbourne, VIC 3000, AU</p>
-              </li>
-
-              <li>
-                <i class="fas fa-phone mt-4 fa-2x"></i>
-                <p>+ 61 476 255 150</p>
-              </li>
-
-              <li>
-                <i class="fas fa-envelope mt-4 fa-2x"></i>
-                <p>james@bootstrap.com.au</p>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-        </div>
-      </section>
-      <!--Section: Contact v.2-->
-
-      <!-- end contact form -->
+    <!-- SKILLS START -->
+    <div class="container">
+      <div class="row" id="skillsTitle">
+        <h1>Skills</h1>
+      </div>
+      <div class="row" id="skills">
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>BOOTSTRAP</li>
+          <li>JAVASCRIPT</li>
+          <li>NODE</li>
+          <li>GIT</li>
+          <li>GITHUB</li>
+        </ul>
+      </div>
     </div>
+
+    <!-- Skills End -->
+
+   <!-- CONTACT STARTS -->
+    <div id="contact" class="container text-center">
+      <h2 class="h1-responsive font-weight-bold text-center my-4">
+        Let's Connect!
+      </h2>
+
+      <div id="links" class="row">
+        
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/james-grasso-8746b2a4/"
+        >
+          <i class="fab fa-linkedin-in fa-3x"></i>
+        </a>
+
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/grassoJ"
+          aria-label="My github"
+          ><i class="fab fa-github fa-3x socialicons"></i
+        ></a>
+      </div>
+
+      <div id="icons" class="row">
+        <ul  class="list-unstyled mb-0">
+          <li>
+            <i class="fas fa-map-marker-alt fa-2x"></i>
+            <p>Melbourne, VIC 3000, AU</p>
+          </li>
+
+          <li>
+            <i class="fas fa-phone mt-4 fa-2x"></i>
+            <p>+ 61 476 255 150</p>
+          </li>
+
+          <li>
+            <i class="fas fa-envelope mt-4 fa-2x"></i>
+            <p>grassjg@gmail.com</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- CONTACT ENDS -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

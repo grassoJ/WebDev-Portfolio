@@ -1,7 +1,12 @@
 #div1 {
-  background-color: darkgray;
-  margin-bottom: 70px;
+  background-color: rgb(144, 172, 196);
+  margin-bottom: 4em;
   margin-top: 30px;
+}
+
+#div1 h1 {
+  color: black;
+  font-size: 3.5em;
 }
 
 #profile {
@@ -10,24 +15,18 @@
   width: 25em;
 }
 
-#aboutMe{
+#aboutMe {
   font-size: 4em;
   font-weight: bold;
-
+  margin-top: 1.2em;
 }
 
-#melb{
+#melb {
   font-size: 1.5em;
-
 }
 
-#iEnjoy{
+#iEnjoy {
   font-size: 1.1em;
-
-}
-
-h1 {
-  color: black;
 }
 
 h4 {
@@ -40,20 +39,52 @@ h5 {
 
 #projects {
   background-color: rgb(144, 172, 196);
-  margin-bottom: 200px;
-  padding: 100px;
+  padding: 9em;
 }
 
 #proTitle {
   color: black;
-  margin-bottom: 75px;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 900;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+#skillsTitle {
+  margin-bottom: 2em;
+  margin-top: 3em;
+  justify-content: center;
+}
+
+#skills {
+  justify-content: center;
+  margin-bottom: 6em;
+}
+#skills li {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px 10px;
+  color: #374054;
+  background: rgb(144, 172, 196);
+  list-style: none;
+  cursor: default;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+#links{
+  justify-content: center;
+  margin-bottom: 2em;
+  
+
+}
+
+#links a{
+  margin: 2em;
+  
+
 }
 
 #contact {
-  background-color: darkgrey;
+  background-color: rgb(144, 172, 196);
   border-radius: 15px;
   padding-left: 30px;
   padding-right: 30px;
@@ -63,6 +94,18 @@ h5 {
 
 body {
   background-color: pink;
+}
+
+#icons{
+justify-content: center;
+}
+#icons li{
+  display: inline-block;
+  margin: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  
 }
 
 footer {
