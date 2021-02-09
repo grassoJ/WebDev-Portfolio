@@ -10,7 +10,7 @@
 }
 
 #profile {
-  margin-bottom: 15em;
+  margin-bottom: 5em;
   margin-left: 1em;
   margin-top: 5em;
   width: 22em;
@@ -28,6 +28,9 @@
 
 #iEnjoy {
   font-size: 1.2em;
+}
+#resume {
+  margin-bottom: 7em;
 }
 
 h4 {
