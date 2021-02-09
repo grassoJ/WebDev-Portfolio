@@ -1,7 +1,7 @@
 #div1 {
   background-color: rgb(144, 172, 196);
   margin-bottom: 4em;
-  margin-top: 30px;
+  margin-top: 8em;
 }
 
 #div1 h1 {
@@ -11,8 +11,8 @@
 
 #profile {
   margin-bottom: 15em;
-  margin-left: 3em;
-  width: 25em;
+  margin-left: 1em;
+  width: 30em;
 }
 
 #aboutMe {
@@ -26,7 +26,7 @@
 }
 
 #iEnjoy {
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 h4 {
@@ -39,7 +39,7 @@ h5 {
 
 #projects {
   background-color: rgb(144, 172, 196);
-  padding: 8rem;
+  padding: 2rem;
 }
 
 #proTitle {
@@ -83,7 +83,7 @@ h5 {
 #contact {
   background-color: rgb(144, 172, 196);
   border-radius: 75px;
-  padding-bottom: 20px;
+  padding-bottom: 1em;
   margin-top: 4em;
 }
 
