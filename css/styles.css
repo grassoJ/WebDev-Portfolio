@@ -13,7 +13,6 @@
 
 #profile {
   margin-bottom: 5em;
-  margin-left: 0em;
   margin-top: 5em;
   width: 22em;
 }
@@ -109,6 +108,10 @@ body {
   margin: 3em;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.link {
+  color: rgb(43, 41, 41);
 }
 
 #topPage {
