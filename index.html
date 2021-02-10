@@ -22,6 +22,7 @@
       integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
       crossorigin="anonymous"
     />
+
     <script src="js/index.js"></script>
 
     <title>jgPortfolio</title>
@@ -30,7 +31,7 @@
   <body>
     <!-- start navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">jgSite</a>
       <button
         class="navbar-toggler"
@@ -118,25 +119,6 @@
     <div class="container rounded" id="projects">
       <div class="card-deck">
         <div class="card">
-          <a href="https://www.amazon.com/">
-            <img
-              class="card-img-top img-fluid"
-              src="css/amazon.PNG"
-              alt="Card image cap"
-            />
-          </a>
-          <div class="card-body">
-            <h5 class="card-title">Amazon.com</h5>
-            <p class="card-text">
-              A little e-commerce side hustle I put together back in 1994...
-              It's doing okay.
-            </p>
-            <p class="card-text">
-              <small class="text-muted">Last updated 3 mins ago</small>
-            </p>
-          </div>
-        </div>
-        <div class="card">
           <a href="https://grassoj.github.io/boostrapPractice/">
             <img
               class="card-img-top img-fluid"
@@ -145,8 +127,8 @@
             />
           </a>
           <div class="card-body">
-            <h5 class="card-title">BS Hobby Page</h5>
-            <p class="card-text">What i get up to</p>
+            <h5 class="card-title">Hobby Page</h5>
+            <p class="card-text">A bit more about me framed in Bootstrap</p>
             <p class="card-text">
               <small class="text-muted">Last updated 3 mins ago</small>
             </p>
@@ -162,7 +144,28 @@
           </a>
           <div class="card-body">
             <h5 class="card-title">Product Mock</h5>
-            <p class="card-text">Want to sell something online? I can help!</p>
+            <p class="card-text">
+              Some raw css styling to imitate an amazon product
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <a href="https://www.amazon.com/">
+            <img
+              class="card-img-top img-fluid"
+              src="css/amazon.PNG"
+              alt="Card image cap"
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Amazon.com</h5>
+            <p class="card-text">
+              A little e-commerce side hustle my buddy Jeff and I put together
+              back in 1994... It's doing okay.
+            </p>
             <p class="card-text">
               <small class="text-muted">Last updated 3 mins ago</small>
             </p>
@@ -237,6 +240,13 @@
     </div>
 
     <!-- CONTACT ENDS -->
+
+    <!-- TOP OF PAGE BUTTON -->
+    <div class="font-weight-bold text-center my-4">
+      <a id="topPage" class="nav-link" href="#nav"
+        ><i class="fas fa-chevron-circle-up fa-6x"></i
+      ></a>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,8 +1,10 @@
 #div1 {
-  background-color: rgb(144, 172, 196);
+  background-color: rgb(75, 120, 160);
   margin-bottom: 4em;
   margin-top: 8em;
 }
+
+/* old blue: rgb(144, 172, 196); */
 
 #div1 h1 {
   color: black;
@@ -42,7 +44,7 @@ h5 {
 }
 
 #projects {
-  background-color: rgb(144, 172, 196);
+  background-color: rgb(75, 120, 160);
   padding: 2rem;
 }
 
@@ -66,8 +68,8 @@ h5 {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
-  color: #374054;
-  background: rgb(144, 172, 196);
+  color: gainsboro;
+  background: rgb(75, 120, 160);
   list-style: none;
   cursor: default;
   font-size: 1.2em;
@@ -85,10 +87,14 @@ h5 {
 }
 
 #contact {
-  background-color: rgb(144, 172, 196);
+  background-color: rgb(75, 120, 160);
   border-radius: 75px;
   padding-bottom: 1em;
   margin-top: 4em;
+}
+
+.fab {
+  color: white;
 }
 
 body {
@@ -105,6 +111,12 @@ body {
   margin-bottom: 0;
 }
 
+#topPage {
+  justify-content: center;
+  color: rgb(75, 120, 160);
+  margin-top: 15em;
+}
+
 footer {
-  margin-top: 100px;
+  margin-top: 0;
 }
