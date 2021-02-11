@@ -120,6 +120,14 @@ body {
   margin-top: 15em;
 }
 
+.card-img-top:hover {
+  opacity: 0.4;
+}
+
+.link:hover {
+  opacity: 0.2;
+}
+
 footer {
   margin-top: 0;
 }
