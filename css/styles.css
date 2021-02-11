@@ -1,6 +1,6 @@
 #div1 {
   margin-bottom: 4em;
-  margin-top: 8em;
+  margin-top: 15em;
 }
 
 /* old blue: rgb(144, 172, 196); */
@@ -8,6 +8,7 @@
 #div1 h1 {
   color: black;
   font-size: 5em;
+  font-family: "Lato", sans-serif;
 }
 
 #lead {
@@ -15,10 +16,11 @@
   height: 100vh;
   min-height: 500px;
   max-height: 1080px;
-  background: url(./279547.jpg);
+  background: url(./laptop1E.jpg);
   background-size: cover;
   padding: 15px;
   overflow: hidden;
+  font-family: "Lato", sans-serif;
 }
 
 #div1 h1 {
@@ -66,7 +68,7 @@ h5 {
 }
 
 .boxColor {
-  background-color: rgb(182, 204, 223);
+  background-color: rgb(184, 184, 199);
 }
 
 #projects {
@@ -94,7 +96,7 @@ h5 {
   margin: 7px;
   padding: 5px 10px;
   color: black;
-  background: rgb(182, 204, 223);
+  background: rgb(184, 184, 199);
   list-style: none;
   cursor: default;
   font-size: 1.2em;
@@ -122,7 +124,8 @@ h5 {
 }
 
 body {
-  background-color: rgb(250, 240, 241);
+  background-color: white;
+  font-family: "Lato", sans-serif;
 }
 
 #icons {
@@ -141,7 +144,7 @@ body {
 
 #topPage {
   justify-content: center;
-  color: rgb(182, 204, 223);
+  color: rgb(184, 184, 199);
   margin-top: 15em;
 }
 
