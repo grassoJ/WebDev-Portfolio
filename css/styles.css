@@ -1,5 +1,4 @@
 #div1 {
-  background-color: rgb(75, 120, 160);
   margin-bottom: 4em;
   margin-top: 8em;
 }
@@ -8,7 +7,31 @@
 
 #div1 h1 {
   color: black;
-  font-size: 3.5em;
+  font-size: 5em;
+}
+
+#lead {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  max-height: 1080px;
+  background: url(./279547.jpg);
+  background-size: cover;
+  padding: 15px;
+  overflow: hidden;
+}
+
+#div1 h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 5em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 0.9em;
+}
+
+#div1 h4 {
+  margin-top: 1.5em;
 }
 
 #profile {
@@ -42,8 +65,11 @@ h5 {
   color: black;
 }
 
+.boxColor {
+  background-color: rgb(182, 204, 223);
+}
+
 #projects {
-  background-color: rgb(75, 120, 160);
   padding: 2rem;
 }
 
@@ -67,8 +93,8 @@ h5 {
   display: inline-block;
   margin: 7px;
   padding: 5px 10px;
-  color: gainsboro;
-  background: rgb(75, 120, 160);
+  color: black;
+  background: rgb(182, 204, 223);
   list-style: none;
   cursor: default;
   font-size: 1.2em;
@@ -86,7 +112,6 @@ h5 {
 }
 
 #contact {
-  background-color: rgb(75, 120, 160);
   border-radius: 75px;
   padding-bottom: 1em;
   margin-top: 4em;
@@ -116,7 +141,7 @@ body {
 
 #topPage {
   justify-content: center;
-  color: rgb(75, 120, 160);
+  color: rgb(182, 204, 223);
   margin-top: 15em;
 }
 
