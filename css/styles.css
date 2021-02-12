@@ -36,16 +36,21 @@
   margin-top: 1.5em;
 }
 
-#profile {
+#profile img {
   margin-bottom: 5em;
   margin-top: 5em;
   width: 25em;
+  justify-content: center;
 }
 
 #aboutMe {
   font-size: 4em;
   font-weight: bold;
   margin-top: 1.2em;
+}
+
+.col {
+  justify-content: center;
 }
 
 #melb {
