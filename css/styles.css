@@ -75,6 +75,10 @@ h5 {
   padding: 2rem;
 }
 
+.card {
+  margin: 20px;
+}
+
 #proTitle {
   color: black;
   margin-bottom: 1em;

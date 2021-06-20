@@ -8,3 +8,4 @@ function sendMail() {
     encodeURIComponent(document.getElementById("myText").value);
   window.location.href = link;
 }
+
